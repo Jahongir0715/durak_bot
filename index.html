@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head><meta charset="UTF-8"><title>Durak Demo</title></head>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Durak Game</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 20px; background: #2c3e50; color: #ecf0f1; }
+  h1 { text-align: center; }
+  #game-area { margin-top: 20px; text-align: center; }
+  button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+</style>
+</head>
 <body>
-  <h1>Демо-страница игры Дурак</h1>
+  <h1>Игра «Дурак»</h1>
+  <div id="game-area">
+    <p>Добро пожаловать в игру Дурак!</p>
+    <button id="start-game-btn">Начать игру</button>
+    <div id="status"></div>
+  </div>
+
+<script>
+  // Просто пример: при клике меняем текст
+  document.getElementById('start-game-btn').addEventListener('click', () => {
+    document.getElementById('status').textContent = "Игра началась! Тут будет логика игры.";
+  });
+</script>
 </body>
 </html>
