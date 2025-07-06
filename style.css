@@ -1,25 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #2e8b57; /* зеленый фон для карточной игры */
-    margin: 0;
-    padding: 20px;
-    color: white;
-}
-
-h1 {
-    text-align: center;
-}
-
-.card {
-    width: 100px;
-    height: 140px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-    display: inline-block;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.container {
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Дурак Онлайн</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Дурак Онлайн</h1>
+    <div class="container">
+        <!-- Тут будут карты -->
+        <div class="card">♠️ 6</div>
+        <div class="card">♥️ 7</div>
+    </div>
+</body>
+</html>
